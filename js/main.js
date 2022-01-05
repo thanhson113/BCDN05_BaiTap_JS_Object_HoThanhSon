@@ -221,9 +221,7 @@ function capNhatNhanVien() {
         danhSachNV.capNhatNhanVien(nhanVien);
         setLocalStorage(danhSachNV.mangNhanVien);
         hienThiTable(danhSachNV.mangNhanVien);
-        getEle('myModal').style.display = 'none';
-        document.querySelector('.modal-backdrop.show').style.display = 'none';
-
+ 
     }
 }
 getEle('btnCapNhat').onclick = capNhatNhanVien;
